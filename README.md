@@ -125,6 +125,10 @@ git push -u origin main
 
 </details>
 
+## Phase 4: Technical Modification
+- In rolling_monitor_shelhamr.py, step 3.25 was added
+- Calculates rolling median for # of errors
+
 ## Notes
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
