@@ -63,7 +63,7 @@ DATA_DIR: Final[Path] = ROOT_DIR / "data"
 ARTIFACTS_DIR: Final[Path] = ROOT_DIR / "artifacts"
 
 DATA_FILE: Final[Path] = DATA_DIR / "system_metrics_timeseries_case.csv"
-OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "rolling_metrics_case.csv"
+OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "rolling_metrics_shelhamer.csv"
 
 # === DEFINE THE MAIN FUNCTION ===
 
@@ -159,8 +159,8 @@ def main() -> None:
         [
             requests_rolling_mean_recipe,
             errors_rolling_mean_recipe,
-            latency_rolling_mean_recipe,
             errors_rolling_median_recipe,
+            latency_rolling_mean_recipe,
         ]
     )
 
